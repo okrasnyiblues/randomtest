@@ -3,7 +3,7 @@ node {
     
      dir('jobs'){
          git branch: 'master',
-             credentialsId: 'okrasnyiblues',
+             credentialsId: 'okbluesgithub',
              url: 'git@github.com:okrasnyiblues/randomtest.git'
      }
 
