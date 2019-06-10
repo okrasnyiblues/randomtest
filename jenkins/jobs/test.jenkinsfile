@@ -1,0 +1,13 @@
+node {
+    withAWS(region: env.AWS_REGION){
+        
+        stage('Run shell') {
+                    
+                    sh '''
+                        export PGHOST= 
+                        export PGHOST= 
+                        psql --help
+                    '''
+        }
+    }
+}
