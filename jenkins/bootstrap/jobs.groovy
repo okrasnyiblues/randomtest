@@ -6,7 +6,7 @@ pipelineJob("newhob") {
                         remote {
                             name('origin')
                             url("git@github.com:okrasnyiblues/randomtest.git")
-                            credentials('okrasnyiblues')
+                            credentials('okbluesgithub')
                         }
                     }
                 }
